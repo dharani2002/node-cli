@@ -2,6 +2,10 @@
   "name": "nodecli",
   "version": "1.0.0",
   "main": "bin/cli.js",
+  "type": "module",
+  "bin": {
+  "mycli": "./bin/cli.js"
+  },
   "scripts": {
     "dev": "nodemon -r dotenv/config --experimental-json-modules bin/cli.js"
   },
